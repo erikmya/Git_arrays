@@ -18,5 +18,18 @@ console.log(rta);
 //     3: 1
 // }
 
+// Reto clase 12
 
+const numeros = [1,2,3,5,6,7,8,9,10];
 
+const entre = numeros.reduce((obj, item) =>{
+    if (item <= 4) {
+        obj[item <= 5] = obj['1-5'] += 1;
+    }else if (item <= 8) {
+        obj[item <= 8] = obj['6-8'] += 1;
+    }else{ obj[item <= 9] = obj['8-9'] += 1;
+}
+    return obj;
+},{'1-5':0, '6-8':0, '8-9':0});
+
+console.log('reto', entre);
