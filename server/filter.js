@@ -53,3 +53,10 @@ const orders = [
   }
 
   console.log(search('Nico'));
+
+  //clase9
+
+const word = ['amor', 'sol', 'piedra', 'dia']
+
+const rta4 = word.filter(item => item.length >= 4) 
+console.log('palabras', rta4);
