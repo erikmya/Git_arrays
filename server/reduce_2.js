@@ -20,10 +20,10 @@ console.log(rta);
 
 // Reto clase 12
 
-const numeros = [1,2,3,5,6,7,8,9,10];
+const numeros = [1,2,3,4,5,6,7,8,9,10];
 
 const entre = numeros.reduce((obj, item) =>{
-    if (item <= 4) {
+    if (item <= 5) {
         obj[item <= 5] = obj['1-5'] += 1;
     }else if (item <= 8) {
         obj[item <= 8] = obj['6-8'] += 1;
