@@ -83,3 +83,16 @@ const dates = [
   }
 
   console.log('isOverlap', isOverlap(newAppointment));
+
+  // reto numeros par some
+
+  const  num = [1, 3, 5, 7, 10, 11];
+  const num2 = [1, 3, 5];
+     function hola(numbers) {
+    return numbers.some(item => item % 2 === 0)
+  }
+
+  const impar = hola(num2);
+  const pares = hola(num);
+  console.log(pares);
+  console.log(impar);
