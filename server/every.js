@@ -28,9 +28,9 @@ const team = [
     },
     {
       name: "Santiago",
-      age: 18,
+      age: 15,
     },
   ];
  
-const ninos = team.every(item => item <= 15)
+const ninos = team.every(item => item.age <= 15)
 console.log('reto', ninos);
