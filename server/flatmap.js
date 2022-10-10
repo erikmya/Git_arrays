@@ -43,3 +43,32 @@ const rt3 = Object.values(calendars).flatMap(item => {
     return item.map(date => date.startDate);
 });
 console.log(rt3);
+
+// Clase 25 reto
+
+const oraciones = ["Beautiful is better than ugly",
+"Explicit is better than implicit",
+"Simple is better than complex",
+"Complex is better than complicated"];
+
+function contador(oraciones) {
+    return lineas = oraciones.flatMap(item => item.split(' '));
+}
+
+const numero = contador(oraciones);
+console.log('palabras', numero.length);
+
+// Clase reto 25 2.0 
+
+const oraciones3 = ["Beautiful is better than ugly",
+"Explicit is better than implicit",
+"Simple is better than complex",
+"Complex is better than complicated"];
+
+function contador(oracion) {
+    return lineas = oracion.flatMap(item => item.split(' ')).length;
+}
+
+const numero2 = contador(oraciones3);
+console.log('palabras', numero2);
+
